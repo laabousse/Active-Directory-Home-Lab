@@ -1,29 +1,41 @@
-# Active-Directory-Home-Lab
+# 🏠 Active Directory Home Lab
 This repository offers step-by-step instructions for setting up a home lab with Active Directory using Oracle VirtualBox. It covers the installation of Windows Server 2019 as a Domain Controller and the configuration of Windows 10 clients to join the domain. Perfect for IT students and enthusiasts looking to explore AD in a virtual environment.
 
+## 📋 Prerequisites
+Before you begin, ensure you have the following:
+ ```plaintext
+         - Oracle VirtualBox installed 
+         - Windows Server 2019 ISO
+         - Windows 10 Enterprise ISO
+         - Basic knowledge of networking and Windows Server
+```
 
-# Active Directory Home Lab Setup
+## 📊 Overview
 
-This repository offers step-by-step instructions for setting up a home lab with Active Directory using Oracle VirtualBox.
+This guide will walk you through the setup of a basic home lab with Active Directory using Oracle VirtualBox. Follow the steps below to get started!
 
-## Prerequisites
-- Oracle VirtualBox installed
-- Windows Server 2019 ISO
-- Windows 10 Enterprise ISO
-- Basic knowledge of networking and Windows Server
+---
 
-## Overview
-1. [Install VirtualBox](#step-1-install-virtualbox)
-2. [Create Windows Server 2019 VM](#step-2-create-windows-server-2019-vm)
-3. [Configure the Network Interface Controller](#step-3-configure-the-network-interface-controller)
-4. [Configure Windows Server as Domain Controller](#step-4-configure-windows-server-as-domain-controller)
-5. [Install RAS/NAT for Internet Access](#step-5-install-rasnat-for-internet-access)
-6. [Install the DHCP Server Role](#step-6-install-the-dhcp-server-role)
-7. [Generate Sample Users Automatically Using PowerShell](#step-7-generate-sample-users-automatically-using-powershell)
-8. [Create Windows 10 Enterprise VM](#step-8-create-windows-10-enterprise-vm)
-9. [Join Windows 10 Client to the Domain](#step-9-join-windows-10-client-to-the-domain)
+### 🚀 Getting Started
+1. [**Install VirtualBox**](#step-1-install-virtualbox) 
+2. [**Create Windows Server 2019 VM**](#step-2-create-windows-server-2019-vm) 
 
-## Instructions
+---
+
+### 🔧 Configuration Steps
+3. [**Configure the Network Interface Controller**](#step-3-configure-the-network-interface-controller) 
+4. [**Configure Windows Server as Domain Controller**](#step-4-configure-windows-server-as-domain-controller) 
+5. [**Install RAS/NAT for Internet Access**](#step-5-install-rasnat-for-internet-access) 
+6. [**Install the DHCP Server Role**](#step-6-install-the-dhcp-server-role)
+
+---
+
+### 🛠️ User Management
+7. [**Generate Sample Users Automatically Using PowerShell**](#step-7-generate-sample-users-automatically-using-powershell)
+8. [**Create Windows 10 Enterprise VM**](#step-8-create-windows-10-enterprise-vm)
+9. [**Join Windows 10 Client to the Domain**](#step-9-join-windows-10-client-to-the-domain) 
+
+---
 
 ### Step 1: Install VirtualBox
    1. Download and install VirtualBox from [Oracle's website](https://www.virtualbox.org/wiki/Downloads).
